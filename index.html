@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rimas Kawadis — Business Administration graduate specializing in AI Product Development, Digital Marketing, and Innovation. Creator of Skooly Smart AI, an award-winning AI-powered school safety platform.">
+  <meta name="keywords" content="Rimas Kawadis, Portfolio, Business Administration, AI, Skooly, Product Development, Marketing, Saudi Arabia">
+  <meta name="author" content="Rimas Kawadis">
+
+  <title>Rimas Kawadis — AI Product Development & Business Innovation</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+</head>
+<body>
+
+  <!-- Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">R<span>K</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#project" class="nav-link">Project</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Available for opportunities
+      </div>
+      <h1>
+        Hi, I'm <span class="gradient-text">Rimas Kawadis</span>
+      </h1>
+      <p class="hero-subtitle">Business Administration · AI Product Development · Innovation</p>
+      <div class="hero-typing">
+        <span id="typingText"></span><span class="cursor"></span>
+      </div>
+      <div class="hero-cta">
+        <a href="#project" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          View My Work
+        </a>
+        <a href="assets/cv_rimas_kawadis.pdf" target="_blank" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in Touch
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Bridging Business & Technology</h2>
+        <p class="section-subtitle">Turning innovative ideas into real-world impact through AI, strategy, and hands-on product development.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p>
+            I'm a Business Administration graduate (Systems Track) from Arab Open University in Jeddah, Saudi Arabia, with <strong>1+ year of hands-on experience</strong> in AI product development, digital marketing, and business analysis.
+          </p>
+          <p>
+            I contributed to building <strong>Skooly Smart AI</strong>, an AI-powered edtech platform designed to enhance student safety in school environments. From leading prototype development to executing marketing strategies, I thrive at the intersection of technology and business.
+          </p>
+          <p>
+            I'm passionate about innovation management, strategic planning, and using emerging technologies to solve real-world problems — especially in education and child safety.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">1+</div>
+              <div class="stat-label">Year Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">AI Features Built</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">🏆</div>
+              <div class="stat-label">Award Winner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal-right">
+          <h3 style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600; margin-bottom: 20px; color: var(--text-secondary);">Core Competencies</h3>
+          <div class="competencies">
+            <span class="competency-tag">Business Analysis</span>
+            <span class="competency-tag">AI Product Development</span>
+            <span class="competency-tag">Strategic Planning</span>
+            <span class="competency-tag">Digital Marketing</span>
+            <span class="competency-tag">Requirements Analysis</span>
+            <span class="competency-tag">Systems Thinking</span>
+            <span class="competency-tag">Market Research</span>
+            <span class="competency-tag">Competitive Analysis</span>
+            <span class="competency-tag">Content Strategy</span>
+            <span class="competency-tag">Innovation Management</span>
+            <span class="competency-tag">Stakeholder Management</span>
+            <span class="competency-tag">Team Collaboration</span>
+            <span class="competency-tag">Brand Management</span>
+            <span class="competency-tag">Microsoft Office Suite</span>
+            <span class="competency-tag">Canva</span>
+            <span class="competency-tag">CapCut</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKOOLY PROJECT SECTION ========== -->
+  <section class="project" id="project">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Featured Project</div>
+        <h2 class="section-title">Skooly Smart AI</h2>
+        <p class="section-subtitle">An AI-powered smart school platform ensuring student safety through intelligent technology.</p>
+      </div>
+
+      <!-- Project Hero Card -->
+      <div class="project-hero-card reveal-scale">
+        <div class="project-hero-content">
+          <div class="project-badge">
+            🏆 Best Innovative Product — Fikra 2026, INJAZ Saudi Arabia
+          </div>
+          <h3 class="project-title">Smarter Schools. Safer Students.</h3>
+          <p class="project-description">
+            Skooly Smart AI is an integrated smart school operating platform specializing in managing student safety in the Kingdom of Saudi Arabia. It helps schools monitor students in real-time, manage attendance and dismissal, track school buses, and enhance instant communication with parents — all through a single intelligent system combining AI and IoT.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Artificial Intelligence</span>
+            <span class="project-tag">IoT</span>
+            <span class="project-tag">EdTech</span>
+            <span class="project-tag">B2B SaaS</span>
+            <span class="project-tag">Smart Watches</span>
+            <span class="project-tag">Mobile App</span>
+            <span class="project-tag">School Dashboard</span>
+            <span class="project-tag">Saudi Arabia</span>
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 10px; background: var(--bg-glass); border: 1px solid var(--border-subtle); font-size: 0.85rem; color: var(--text-secondary);">
+              ⌚ Smart Watch — For Students
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 10px; background: var(--bg-glass); border: 1px solid var(--border-subtle); font-size: 0.85rem; color: var(--text-secondary);">
+              📱 Parent App — For Guardians
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 10px; background: var(--bg-glass); border: 1px solid var(--border-subtle); font-size: 0.85rem; color: var(--text-secondary);">
+              🖥️ School Dashboard — For Administration
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Cards -->
+      <div class="features-grid">
+        <div class="feature-card reveal delay-1">
+          <div class="feature-icon">📍</div>
+          <h3>GPS Tracking</h3>
+          <p>Real-time, precise tracking of student location inside and outside the school premises.</p>
+        </div>
+        <div class="feature-card reveal delay-2">
+          <div class="feature-icon">🚨</div>
+          <h3>SOS Emergency</h3>
+          <p>Instant SOS button for immediate communication with the school and parents during any emergency.</p>
+        </div>
+        <div class="feature-card reveal delay-3">
+          <div class="feature-icon">⚠️</div>
+          <h3>Fall Detection</h3>
+          <p>Automatic fall detection with instant alerts sent to the school and parents.</p>
+        </div>
+        <div class="feature-card reveal delay-4">
+          <div class="feature-icon">❤️</div>
+          <h3>Health Monitoring</h3>
+          <p>Vital health monitoring including heart rate and temperature tracking for student wellness.</p>
+        </div>
+        <div class="feature-card reveal delay-5">
+          <div class="feature-icon">✅</div>
+          <h3>Smart Attendance</h3>
+          <p>Accurate, effortless, and automatic attendance and dismissal recording.</p>
+        </div>
+        <div class="feature-card reveal delay-6">
+          <div class="feature-icon">🚌</div>
+          <h3>Bus Tracking</h3>
+          <p>Real-time school bus tracking ensuring safe student transportation and arrival.</p>
+        </div>
+      </div>
+
+      <!-- Video Showcase -->
+      <div class="video-showcase">
+        <h3 class="reveal">📹 Project Demos & Presentations</h3>
+        <div class="video-grid">
+          <div class="video-card reveal delay-1">
+            <video controls preload="metadata" playsinline>
+              <source src="assets/skooly_demo.mov" type="video/quicktime">
+              <source src="assets/skooly_demo.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-info">
+              <h4>Skooly Smart AI — Demo</h4>
+              <p>Platform walkthrough and feature demonstration</p>
+            </div>
+          </div>
+          <div class="video-card reveal delay-2">
+            <video controls preload="metadata" playsinline>
+              <source src="assets/skooly_showcase.mov" type="video/quicktime">
+              <source src="assets/skooly_showcase.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-info">
+              <h4>Skooly Smart AI — Showcase</h4>
+              <p>Product showcase and team presentation</p>
+            </div>
+          </div>
+          <div class="video-card reveal delay-3">
+            <iframe 
+              width="100%" 
+              style="aspect-ratio: 16/9; border: none; background: #000;" 
+              src="https://www.youtube.com/embed/2eNnbWbhaNw" 
+              title="Skooly with Captain — Full Presentation" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+            <div class="video-info">
+              <h4>Skooly with Captain</h4>
+              <p>Full-length presentation & demonstration</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Project Documents -->
+      <div class="documents-section reveal">
+        <h3>📄 Project Documents</h3>
+        <div class="documents-grid">
+          <a href="assets/investor_booklet.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">📕</div>
+            <div class="doc-info">
+              <h4>Investor Booklet</h4>
+              <p>Business & investment overview</p>
+            </div>
+          </a>
+          <a href="assets/investor_brochure.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">📘</div>
+            <div class="doc-info">
+              <h4>Investor Brochure</h4>
+              <p>Platform features & market info</p>
+            </div>
+          </a>
+          <a href="assets/skooly_board.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">📋</div>
+            <div class="doc-info">
+              <h4>Skooly Board</h4>
+              <p>Business model canvas</p>
+            </div>
+          </a>
+          <a href="assets/rollup_banner.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">🎯</div>
+            <div class="doc-info">
+              <h4>Roll-up Banner</h4>
+              <p>Marketing display material</p>
+            </div>
+          </a>
+          <a href="assets/safety_booklet.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">📗</div>
+            <div class="doc-info">
+              <h4>Safety Booklet</h4>
+              <p>Student bus safety guide</p>
+            </div>
+          </a>
+          <a href="assets/project_cards.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">🃏</div>
+            <div class="doc-info">
+              <h4>Project Cards</h4>
+              <p>Marketing & info cards</p>
+            </div>
+          </a>
+          <a href="assets/parent_interview.pdf" target="_blank" class="doc-card">
+            <div class="doc-icon">👨‍👩‍👧</div>
+            <div class="doc-info">
+              <h4>Parent Interview</h4>
+              <p>User research & feedback</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION ========== -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Experience</div>
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-subtitle">Building products, leading teams, and driving growth through innovation.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Apr 2026 — Present</div>
+            <h3>Prototype Development Manager & Marketing Team Member</h3>
+            <h4>Skooly Smart AI — Jeddah, Saudi Arabia</h4>
+            <ul>
+              <li>Spearheaded development of an AI-powered smart school platform with 5+ core features integrating AI and IoT technologies</li>
+              <li>Collaborated with cross-functional stakeholder teams to transform concepts into functional prototypes</li>
+              <li>Gathered and documented business requirements from end users, improving platform usability</li>
+              <li>Conducted competitive analysis across 4 rival products, identifying key differentiation opportunities</li>
+              <li>Created 10+ marketing content pieces per month including social media posts and promotional materials</li>
+              <li>Analyzed campaign performance metrics across multiple channels to optimize engagement and conversion rates</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Jan — Feb 2026</div>
+            <h3>Marketing Intern — Cooperative Training</h3>
+            <h4>Modern Lifestyles Trading Est. — Jeddah, Saudi Arabia</h4>
+            <ul>
+              <li>Managed social media content for a company serving 20+ years in the Saudi market</li>
+              <li>Handled customer communications and supported 3+ concurrent marketing campaigns</li>
+              <li>Applied university marketing knowledge to real-world tasks, accelerating practical skill development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS SECTION ========== -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Certifications</div>
+        <h2 class="section-title">Continuous Learning</h2>
+        <p class="section-subtitle">Committed to professional growth through recognized certifications and workshops.</p>
+      </div>
+
+      <div class="certs-grid">
+        <!-- IBM Certs -->
+        <div class="cert-card reveal delay-1">
+          <div class="cert-icon ibm">🤖</div>
+          <div class="cert-info">
+            <h4>Make an Impact with AI</h4>
+            <p class="cert-issuer">IBM SkillsBuild</p>
+            <p>Aug 2026 · 1.5 hours</p>
+          </div>
+        </div>
+        <div class="cert-card reveal delay-2">
+          <div class="cert-icon ibm">🎤</div>
+          <div class="cert-info">
+            <h4>Creating an Elevator Pitch Using Generative AI</h4>
+            <p class="cert-issuer">IBM SkillsBuild</p>
+            <p>Aug 2026 · 15 mins</p>
+          </div>
+        </div>
+        <div class="cert-card reveal delay-3">
+          <div class="cert-icon ai">🧠</div>
+          <div class="cert-info">
+            <h4>AI Literacy — Digital Credential</h4>
+            <p class="cert-issuer">IBM SkillsBuild</p>
+            <p>Aug 2026</p>
+          </div>
+        </div>
+        <div class="cert-card reveal delay-1">
+          <div class="cert-icon ibm">🎵</div>
+          <div class="cert-info">
+            <h4>How is Technology Used in Live Concerts?</h4>
+            <p class="cert-issuer">IBM SkillsBuild</p>
+            <p>Aug 2026 · 15 mins</p>
+          </div>
+        </div>
+        <div class="cert-card reveal delay-2">
+          <div class="cert-icon business">🌱</div>
+          <div class="cert-info">
+            <h4>Beyond Conservation to Sustainability</h4>
+            <p class="cert-issuer">IBM SkillsBuild</p>
+            <p>Aug 2026 · 1 hour</p>
+          </div>
+        </div>
+
+        <!-- Security & Computer Club Certs -->
+        <a href="assets/pentesting_essentials.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+          <div class="cert-card reveal delay-3">
+            <div class="cert-icon security">🔐</div>
+            <div class="cert-info">
+              <h4>Pentesting Essentials 📄</h4>
+              <p class="cert-issuer">Arab Open University — Computer Club</p>
+              <p>Nmap, Network Scanning, Ethical Hacking & Exploitation</p>
+            </div>
+          </div>
+        </a>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-icon security">🕵️</div>
+          <div class="cert-info">
+            <h4>Inside the Mind of Ethical Hackers</h4>
+            <p class="cert-issuer">Cybersecurity Workshop</p>
+            <p>Cybersecurity Principles & Ethical Hacking Fundamentals</p>
+          </div>
+        </div>
+
+        <a href="assets/ai_workshop_cert.jpeg" target="_blank" style="text-decoration: none; color: inherit;">
+          <div class="cert-card reveal delay-2">
+            <div class="cert-icon ai">👁️</div>
+            <div class="cert-info">
+              <h4>How AI Recognises Faces & Images 🖼️</h4>
+              <p class="cert-issuer">Computer Club Workshop</p>
+              <p>Artificial Intelligence, Computer Vision, Machine Learning</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="assets/sustainable_business_venture.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+          <div class="cert-card reveal delay-3">
+            <div class="cert-icon business">🚀</div>
+            <div class="cert-info">
+              <h4>Building Sustainable Business Ventures 📄</h4>
+              <p class="cert-issuer">JA Worldwide / EdApp</p>
+              <p>Business Planning, Entrepreneurship, Project Execution (May 2026)</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- HRDF Workshops (Text Only - Gov ID Protection) -->
+        <div class="cert-card reveal delay-1">
+          <div class="cert-icon business">📈</div>
+          <div class="cert-info">
+            <h4>HRDF: Successful Entrepreneurship</h4>
+            <p class="cert-issuer">HRDF & Arab Open University</p>
+            <p>How to be a Successful Entrepreneur (Jan 2025)</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-icon business">🧘</div>
+          <div class="cert-info">
+            <h4>HRDF: Career Inclination & Stress Art</h4>
+            <p class="cert-issuer">HRDF & Arab Open University</p>
+            <p>Career Inclination Scale & Art of Dealing with Stress (Feb 2024)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download IBM Certs PDF -->
+      <div style="text-align: center; margin-top: 40px;" class="reveal">
+        <a href="assets/ibm_certificates.pdf" target="_blank" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          View IBM Certificates (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Education</div>
+        <h2 class="section-title">Academic Foundation</h2>
+      </div>
+
+      <div class="edu-card reveal-scale">
+        <div class="edu-degree">Bachelor of Business Administration</div>
+        <div class="edu-university">Arab Open University — Jeddah, Saudi Arabia</div>
+        <div class="edu-details">Systems Track · Graduated 2026</div>
+        <div class="edu-gpa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          GPA: 3.46 / 4.00
+        </div>
+
+        <div class="edu-coursework">
+          <h4>Relevant Coursework</h4>
+          <div class="coursework-tags">
+            <span class="coursework-tag">Strategic Management</span>
+            <span class="coursework-tag">Managing Technology & Innovation</span>
+            <span class="coursework-tag">Systems Thinking</span>
+            <span class="coursework-tag">Managing Systems Complexity</span>
+            <span class="coursework-tag">Small Business Management</span>
+            <span class="coursework-tag">Business Statistics</span>
+            <span class="coursework-tag">Professional Business Communication</span>
+            <span class="coursework-tag">Microeconomics</span>
+          </div>
+        </div>
+
+        <div class="edu-extra">
+          <div class="edu-extra-card">
+            <h4>🎯 University Activities</h4>
+            <ul>
+              <li>Member, Volunteer Club</li>
+              <li>Member, Culture and Creativity Club</li>
+            </ul>
+          </div>
+          <div class="edu-extra-card">
+            <h4>🌍 Languages</h4>
+            <ul>
+              <li>Arabic — Native</li>
+              <li>English — Professional Working Proficiency</li>
+              <li>French — Basic</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Graduation Letter paper link removed to protect private National ID number (2198468130) per privacy requirements -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Interested in collaborating or have a question? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Get in Touch</h3>
+          <p>
+            Whether you're looking for a team member who bridges business and technology, or want to learn more about Skooly Smart AI, feel free to reach out. I'm always open to new opportunities and meaningful conversations.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:reemaszeyad05@gmail.com" class="contact-link">
+              <div class="contact-link-icon">✉️</div>
+              <div class="contact-link-text">
+                <h4>Email</h4>
+                <p>reemaszeyad05@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+966556447895" class="contact-link">
+              <div class="contact-link-icon">📞</div>
+              <div class="contact-link-text">
+                <h4>Phone</h4>
+                <p>+966 556 447 895</p>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/rimas-ziyad-a2abb8289" target="_blank" class="contact-link">
+              <div class="contact-link-icon">💼</div>
+              <div class="contact-link-text">
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/rimas-ziyad-a2abb8289</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn">
+            Send Message →
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Rimas Kawadis. Built with <span class="heart">♥</span> — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
